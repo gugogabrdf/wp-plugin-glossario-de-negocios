@@ -1,0 +1,531 @@
+# Copyright (C) 2026 Gustavo Silva
+# This file is distributed under the same license as the Glossário de Negócios plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Glossário de Negócios 2.3.17\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/glossario-de-negocios\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-22T23:05:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.0\n"
+"X-Domain: glossario-negocios\n"
+
+#. Plugin Name of the plugin
+msgid "Glossário de Negócios"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin para gerenciar um glossário de negócios com shortcodes para exibição [glossario_lista], cadastro/gestão [glossario_cadastro] e métricas [glossario_dashboard]."
+msgstr ""
+
+#: glossario-negocios.php:40
+msgid "Termo"
+msgstr ""
+
+#: glossario-negocios.php:42
+msgid "Adicionar Novo"
+msgstr ""
+
+#: glossario-negocios.php:43
+msgid "Adicionar Novo Termo"
+msgstr ""
+
+#: glossario-negocios.php:44
+msgid "Editar Termo"
+msgstr ""
+
+#: glossario-negocios.php:45
+msgid "Novo Termo"
+msgstr ""
+
+#: glossario-negocios.php:46
+msgid "Ver Termo"
+msgstr ""
+
+#: glossario-negocios.php:47
+msgid "Buscar Termos"
+msgstr ""
+
+#: glossario-negocios.php:48
+#: includes/shortcode-lista.php:156
+msgid "Nenhum termo encontrado"
+msgstr ""
+
+#: glossario-negocios.php:49
+msgid "Nenhum termo encontrado na lixeira"
+msgstr ""
+
+#: glossario-negocios.php:80
+msgid "Categorias do Glossário de Negócios"
+msgstr ""
+
+#: glossario-negocios.php:81
+#: includes/shortcode-lista.php:79
+msgid "Categoria"
+msgstr ""
+
+#: glossario-negocios.php:82
+msgid "Buscar Categorias"
+msgstr ""
+
+#: glossario-negocios.php:83
+msgid "Todas as Categorias"
+msgstr ""
+
+#: glossario-negocios.php:84
+msgid "Categoria Pai"
+msgstr ""
+
+#: glossario-negocios.php:85
+msgid "Categoria Pai:"
+msgstr ""
+
+#: glossario-negocios.php:86
+msgid "Editar Categoria"
+msgstr ""
+
+#: glossario-negocios.php:87
+msgid "Atualizar Categoria"
+msgstr ""
+
+#: glossario-negocios.php:88
+msgid "Adicionar Nova Categoria"
+msgstr ""
+
+#: glossario-negocios.php:89
+msgid "Nova Categoria"
+msgstr ""
+
+#: glossario-negocios.php:90
+#: includes/shortcode-cadastro.php:81
+msgid "Categorias"
+msgstr ""
+
+#: glossario-negocios.php:149
+msgid "Referência"
+msgstr ""
+
+#: glossario-negocios.php:172
+msgid "URL de Referência:"
+msgstr ""
+
+#: glossario-negocios.php:174
+msgid "Informe a URL de referência para este termo (opcional)."
+msgstr ""
+
+#: glossario-negocios.php:177
+msgid "Erro ao carregar campos."
+msgstr ""
+
+#: glossario-negocios.php:260
+msgid "Erro interno. Verifique wp-content/debug.log para detalhes."
+msgstr ""
+
+#: includes/shortcode-lista.php:28
+msgid "Buscar termo ou definição..."
+msgstr ""
+
+#: includes/shortcode-lista.php:28
+msgid "Buscar termo no glossário de negócios"
+msgstr ""
+
+#: includes/shortcode-lista.php:38
+msgid "Filtrar por categoria"
+msgstr ""
+
+#: includes/shortcode-lista.php:39
+msgid "todas as categorias"
+msgstr ""
+
+#: includes/shortcode-lista.php:50
+msgid "Mostrar:"
+msgstr ""
+
+#: includes/shortcode-lista.php:51
+msgid "Quantidade de itens por página"
+msgstr ""
+
+#: includes/shortcode-lista.php:52
+msgid "10 por página"
+msgstr ""
+
+#: includes/shortcode-lista.php:53
+msgid "20 por página"
+msgstr ""
+
+#: includes/shortcode-lista.php:54
+msgid "100 por página"
+msgstr ""
+
+#: includes/shortcode-lista.php:55
+msgid "500 por página"
+msgstr ""
+
+#: includes/shortcode-lista.php:61
+msgid "Índice alfabético"
+msgstr ""
+
+#: includes/shortcode-lista.php:62
+msgid "Todos"
+msgstr ""
+
+#: includes/shortcode-lista.php:78
+#: includes/shortcode-cadastro.php:96
+msgid "Definição"
+msgstr ""
+
+#: includes/shortcode-lista.php:105
+#: includes/dashboard.php:201
+#: includes/shortcode-cadastro.php:579
+msgid "sem categoria"
+msgstr ""
+
+#: includes/shortcode-lista.php:137
+msgid "Nenhum termo cadastrado no glossário de negócios até o momento."
+msgstr ""
+
+#: includes/shortcode-lista.php:148
+msgid "Paginação do Glossário de Negócios"
+msgstr ""
+
+#: includes/shortcode-lista.php:157
+msgid "Tente ajustar os termos de busca ou selecionar outra categoria."
+msgstr ""
+
+#: includes/shortcode-lista.php:162
+msgid "Erro ao carregar o glossário de negócios. Por favor, tente novamente mais tarde."
+msgstr ""
+
+#: includes/csv-handler.php:51
+#: includes/csv-handler.php:316
+#: includes/shortcode-cadastro.php:290
+msgid "Erro de segurança. Tente novamente."
+msgstr ""
+
+#: includes/csv-handler.php:57
+#: includes/shortcode-cadastro.php:296
+msgid "Você não tem permissão para importar termos."
+msgstr ""
+
+#: includes/csv-handler.php:63
+msgid "Nenhum arquivo foi enviado."
+msgstr ""
+
+#: includes/csv-handler.php:71
+msgid "O arquivo é muito grande. O tamanho máximo permitido é 5MB."
+msgstr ""
+
+#: includes/csv-handler.php:79
+msgid "Tipo de arquivo inválido. Apenas arquivos CSV são permitidos."
+msgstr ""
+
+#. translators: %d: quantidade de termos importados
+#: includes/csv-handler.php:87
+msgid "Importação concluída! %d termo(s) importado(s)."
+msgstr ""
+
+#. translators: %d: quantidade de termos ignorados
+#: includes/csv-handler.php:94
+msgid " %d termo(s) ignorado(s)."
+msgstr ""
+
+#: includes/csv-handler.php:103
+msgid "Importação CSV"
+msgstr ""
+
+#: includes/csv-handler.php:118
+msgid "Não foi possível ler o arquivo."
+msgstr ""
+
+#: includes/csv-handler.php:128
+msgid "Arquivo CSV vazio."
+msgstr ""
+
+#: includes/csv-handler.php:160
+msgid "O arquivo CSV não contém todas as colunas necessárias. Faltando: "
+msgstr ""
+
+#. translators: %d: número da linha
+#: includes/csv-handler.php:196
+msgid "Linha %d: Termo ou definição não preenchidos."
+msgstr ""
+
+#. translators: 1: número da linha, 2: nome do termo
+#: includes/csv-handler.php:204
+msgid "Linha %1$d: O termo \"%2$s\" foi ignorado pois a categoria é obrigatória."
+msgstr ""
+
+#. translators: 1: número da linha, 2: nome da categoria, 3: nome do termo
+#: includes/csv-handler.php:230
+msgid "Linha %1$d: Erro ao registrar a categoria \"%2$s\" para o termo \"%3$s\"."
+msgstr ""
+
+#. translators: 1: número da linha, 2: nome do termo, 3: nome da categoria
+#: includes/csv-handler.php:237
+msgid "Linha %1$d: O termo \"%2$s\" já está cadastrado na categoria \"%3$s\"."
+msgstr ""
+
+#: includes/csv-handler.php:324
+msgid "Exportação CSV"
+msgstr ""
+
+#: includes/csv-handler.php:387
+#: includes/shortcode-cadastro.php:388
+#: includes/shortcode-cadastro.php:425
+#: includes/shortcode-cadastro.php:467
+#: includes/shortcode-cadastro.php:510
+#: includes/shortcode-cadastro.php:550
+#: includes/shortcode-cadastro.php:597
+#: includes/shortcode-cadastro.php:694
+msgid "Erro de segurança."
+msgstr ""
+
+#: includes/csv-handler.php:418
+msgid "Erro ao gerar modelo CSV."
+msgstr ""
+
+#: includes/dashboard.php:18
+msgid "Dashboard do Glossário de Negócios"
+msgstr ""
+
+#: includes/dashboard.php:19
+#: includes/shortcode-cadastro.php:89
+msgid "Dashboard"
+msgstr ""
+
+#: includes/dashboard.php:104
+#: includes/dashboard.php:247
+#: includes/dashboard.php:444
+msgid "Últimos 30 dias"
+msgstr ""
+
+#: includes/dashboard.php:106
+#: includes/dashboard.php:452
+msgid "Início"
+msgstr ""
+
+#: includes/dashboard.php:235
+msgid "Não foi possível carregar as estatísticas no momento."
+msgstr ""
+
+#: includes/dashboard.php:244
+msgid "Período:"
+msgstr ""
+
+#: includes/dashboard.php:245
+msgid "Hoje"
+msgstr ""
+
+#: includes/dashboard.php:246
+#: includes/dashboard.php:440
+msgid "Últimos 7 dias"
+msgstr ""
+
+#: includes/dashboard.php:248
+msgid "Este Ano"
+msgstr ""
+
+#: includes/dashboard.php:249
+#: includes/dashboard.php:450
+msgid "Histórico Completo"
+msgstr ""
+
+#: includes/dashboard.php:255
+msgid "De:"
+msgstr ""
+
+#: includes/dashboard.php:259
+msgid "Até:"
+msgstr ""
+
+#: includes/dashboard.php:263
+msgid "Filtrar"
+msgstr ""
+
+#: includes/dashboard.php:273
+msgid "Total de Termos"
+msgstr ""
+
+#: includes/dashboard.php:275
+msgid "Termos publicados"
+msgstr ""
+
+#: includes/dashboard.php:280
+msgid "Total de Categorias"
+msgstr ""
+
+#: includes/dashboard.php:282
+msgid "Categorias ativas"
+msgstr ""
+
+#: includes/dashboard.php:287
+msgid "Cadastros no Período"
+msgstr ""
+
+#: includes/dashboard.php:293
+msgid "Média por Categoria"
+msgstr ""
+
+#: includes/dashboard.php:295
+msgid "Termos por categoria"
+msgstr ""
+
+#: includes/dashboard.php:300
+msgid "Categoria com Mais Termos"
+msgstr ""
+
+#: includes/dashboard.php:306
+msgid "Nenhuma categoria"
+msgstr ""
+
+#: includes/dashboard.php:313
+msgid "Distribuição por Categorias"
+msgstr ""
+
+#: includes/dashboard.php:333
+msgid "Nenhuma categoria encontrada."
+msgstr ""
+
+#: includes/dashboard.php:340
+msgid "Termos Recentes"
+msgstr ""
+
+#: includes/dashboard.php:341
+msgid "Últimos registros"
+msgstr ""
+
+#: includes/dashboard.php:349
+msgid "Data de Cadastro"
+msgstr ""
+
+#: includes/dashboard.php:362
+msgid "Nenhum termo cadastrado recentemente."
+msgstr ""
+
+#: includes/dashboard.php:411
+msgid "Erro ao carregar o dashboard. Tente novamente mais tarde."
+msgstr ""
+
+#: includes/dashboard.php:421
+msgid "Erro de segurança. Atualize a página e tente novamente."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:65
+msgid "Você não tem permissão para adicionar termos ao glossário de negócios."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:72
+msgid "Gerenciamento completo de termos, categorias e dados do glossário de negócios"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:79
+msgid "Navegação do formulário"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:80
+msgid "Cadastro Manual"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:82
+#: includes/shortcode-cadastro.php:147
+msgid "Gerenciar Termos"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:84
+#: includes/shortcode-cadastro.php:160
+msgid "Importar CSV"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:87
+#: includes/shortcode-cadastro.php:197
+msgid "Exportar CSV"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:90
+#: includes/admin-detalhes.php:37
+msgid "Instruções & Detalhes"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:122
+msgid "Adicionar Termo"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:130
+msgid "Gerenciar Categorias"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:138
+msgid "Adicionar"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:198
+msgid "Baixar CSV"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:302
+msgid "Termo e definição são obrigatórios."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:322
+msgid "A seleção de pelo menos uma categoria é obrigatória."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:368
+msgid "Termo adicionado com sucesso!"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:433
+msgid "Você não tem permissão para gerenciar categorias."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:439
+msgid "Nome da categoria é obrigatório."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:445
+msgid "Esta categoria já existe."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:455
+msgid "Categoria criada com sucesso!"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:483
+msgid "ID e nome da categoria são obrigatórios."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:489
+msgid "Já existe outra categoria com este nome."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:499
+msgid "Categoria editada com sucesso!"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:522
+msgid "ID da categoria é obrigatório."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:544
+msgid "Categoria excluída com sucesso!"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:611
+msgid "Termo não encontrado."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:661
+msgid "Termo editado com sucesso!"
+msgstr ""
+
+#: includes/shortcode-cadastro.php:700
+msgid "ID do termo é obrigatório."
+msgstr ""
+
+#: includes/shortcode-cadastro.php:718
+msgid "Termo excluído com sucesso!"
+msgstr ""
